@@ -32,7 +32,8 @@ ul {
 .hero-section {
     background-color: #2e2f42;
     text-align: center;
-    padding: 150px;
+    padding: 188px 0;
+    height: 600px;
 }
 .hero-title {
     font-family: "Roboto", sans-serif;
@@ -40,6 +41,8 @@ ul {
     font-weight: 700;
     color: #ffffff;
     text-align: center;
+    margin: 0 auto 48px auto;
+    max-width: 496px;
 }
 h2 {
     font-size: 36px;
@@ -52,6 +55,7 @@ h2 {
 .header2 {
     color: black;
     font-size: 36px;
+    padding: 72px;
 }
 .görselalt {
     font-weight: 500;
@@ -111,6 +115,8 @@ h2 {
 header {
     display: flex;
     align-items: center;
+    height: 72px;
+    padding: 0 10;
 }
 .title-nav{
     margin-left: 76px;
@@ -134,10 +140,16 @@ header {
     display: flex;
     flex-wrap: wrap;
 }
+.container{
+    height: 344px;
+    padding: 120px;
+    margin: 0 auto;
+}
 .team-container{
     background-color: #f4f4fd;
     text-align: center;
     padding: 120px 0;
+    height: 732px;
 }
 .team-container ul {
     display: flex;
@@ -182,4 +194,9 @@ header {
     font-weight: 800;
     font-size: 18px;
     
+}
+h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
