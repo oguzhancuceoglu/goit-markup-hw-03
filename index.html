@@ -16,35 +16,40 @@
   </head>
 
   <body>
-    <header>
-      <a href="./index.html" class="logo"
-        >WEB<span class="logo-light">STUDIO</span></a
-      >
-      <nav class="title-nav">
-        <ul>
-          <li><a href=""> Studio </a></li>
-          <li><a href=""> Portfolio </a></li>
-          <li><a href=""> Contects </a></li>
-        </ul>
-      </nav>
+    <header class="menu">
+      <div class="container">
+        <a href="./index.html" class="logo"
+          >WEB<span class="logo-light">STUDIO</span></a
+        >
+        <nav class="title-nav">
+          <ul class="title">
+            <li><a href=""> Studio </a></li>
+            <li><a href=""> Portfolio </a></li>
+            <li><a href=""> Contects </a></li>
+          </ul>
+        </nav>
 
-      <!-- iletişim bilgileri -->
-      <address class="contacts">
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+11(111-11-11)">+11(000)111-11-11</a></li>
-        </ul>
-      </address>
+        <!-- iletişim bilgileri -->
+        <address class="contacts">
+          <ul>
+            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a href="tel:+11(111-11-11)">+11(000)111-11-11</a></li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       <section class="hero-section">
-        <h1 class="hero-title">Effective Solutions for Your Business</h1>
-        <button type="button" class="ilkbuton">Order Service</button>
-      </section>
-      <section>
         <div class="container">
-          <ul>
-            <li class="item">
+          <h1 class="hero-title">Effective Solutions for Your Business</h1>
+          <button type="button" class="ilkbuton">Order Service</button>
+        </div>
+      </section>
+
+      <section class="benefits-section">
+        <div class="container">
+          <ul class="benefits">
+            <li>
               <h3>Strategy</h3>
 
               <p>
@@ -52,7 +57,7 @@
                 the perfect and creative solution.
               </p>
             </li>
-            <li class="item">
+            <li>
               <h3>Punctuality</h3>
 
               <p>
@@ -60,7 +65,7 @@
                 within the shortest possible time.
               </p>
             </li>
-            <li class="item">
+            <li>
               <h3>Diligence</h3>
 
               <p>
@@ -68,7 +73,7 @@
                 opportunities and minimize risk.
               </p>
             </li>
-            <li class="item">
+            <li>
               <h3>Technologies</h3>
               <p>
                 Desing practice focused on digital experinces and interaction
@@ -78,10 +83,10 @@
           </ul>
         </div>
       </section>
-      <section>
-        <div class="team-container">
+      <section class="team-section">
+        <div class="container">
           <h2 class="header2">Our Team</h2>
-          <ul>
+          <ul class="team-list">
             <li>
               <img
                 src="./images/img.jpg"
@@ -124,9 +129,11 @@
             </li>
           </ul>
         </div>
-        <div class="portfolio-container">
+      </section>
+      <section class="portfolio-section">
+        <div class="container">
           <h2 class="header2">Our Portfolio</h2>
-          <ul>
+          <ul class="portfolio-list">
             <li>
               <img
                 src="./images/alt1.jpg"
@@ -192,16 +199,14 @@
       </section>
     </main>
     <footer class="footer-section">
-      <div clas="footer-container">
-        <div class="footer-logo-box">
-          <a href="./index.html" class="logo"
-            >WEB<span class="logo-light1">STUDIO</span></a
-          >
-          <p>
-            Increase the flow of customers and sales for your business with
-            digital marketing & growth solutions
-          </p>
-        </div>
+      <div class="container">
+        <a href="./index.html" class="logo"
+          >WEB<span class="logo-light1">STUDIO</span></a
+        >
+        <p class="footer-p">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions
+        </p>
       </div>
     </footer>
   </body>
